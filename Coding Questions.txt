@@ -282,8 +282,10 @@ elastic logstash kibana
 Query Profiling
 jprofiler vs visualvm
 scc saga design pattern
+Debugging Microservices
+Indexing in DB
 
-Two phase commit 
+Two phase commit
 
 
 /usr/local/opt/kafka/bin/kafka-server-start /usr/local/etc/kafka/server.properties
