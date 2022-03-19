@@ -1,0 +1,70 @@
+1. life cycle of bean
+2. BenaFactoryPostproccesor and other counterPart
+3. How do u scale kafka when incoming requests are more than consuming apart from increasing consumers
+4. What is the need of consumer group ?
+5. Make class immutable
+   class Student {
+     int studentId;
+     List<String> listOfNames;
+   }
+6. how to add custom monitoring metrics to spring boot application (using custom actuators)
+7. How to add monitoring microservices
+8. How to find out the problem in which microservice the error(like 401 or 500) is happening and what is the issue.
+9. Using Monitoring dashboards
+10. How to monitor number of requests on a microservice, no of threads etc on each microservice
+11. How and where different dashboards are used ? Like hystrix, Eureka
+12. Why topics are partitoned in kafka? why we need partitioning in kafka?
+13. What are the different types of scopes in Spring boot where have u used them ? Like request scope , session scope
+14. How leader is elected if zookeeper is not present ?
+
+prometheus , sleuth , webflux , zipkin
+
+15. BoundedContext in microservices
+16. Session management in microservices
+17. How will u identify which logs are for which user in microservice when multiple users access microservice -> Using zipkin and scaling microservices
+18. what if size of message is greater than partition size in kafka? will exception be thrown ? or what happens
+19.What is the default msg size we can send to broker in kafka
+20. what are the params for sending msg to kafka topic ? Is their a possible way of sending msg to particular topic ?
+21. Threads. If one method is "static sync" and second method "void sync". And there are 2 threads.
+ One calling method one and other calling method 2 . Can both execute in parallel?
+22. What is the use case of immutablilty? Where and when we use immutable classes?
+23. @Primary annotation in spring ?
+24. What if a topic has 5 partitions. Total there are 100 msgs from all partitions. And there are 20 consumers . Can all 20 consumers consume
+msgs paralley from that topic or how many consumers can consume msgs parallely at given point of time
+25. In case deadlock occurs how to find it and how to resolve it ?
+26. why double checking in singelton pattern ?
+27. How seralization and deserailization is achieved ?
+28. How can u make a field of class non serialized ? Using Transient ?
+29. In hashmap , if overriding hascode method and return 1 always and override equals method. Insert 5 elements to hashmap . What will be size of hashmap
+30. How to override equals method in classes
+31. What if method in parent class does not throw exception but overriden method in child class throws exception. Will it compile and run ?
+32. Aggregation vs composition vs Association
+33. Which is better - Inheritence or composition
+34. DynamoDB vs MongoDb vs Cassendra DB
+35. JDBC vs hibernate
+36. SessionFactory vs session
+37. what is PersistentContext ?
+38. load() vs get()
+39. what is transient state in JPA/Hibernate?
+40. What are the fetch types available in hibernate? Explain how will you use it in real-time.
+41. Code Practice [Auto Vs Identity Vs Table generation type]
+42.Explain the advantages of Named queries in hibernate/JPA?
+43.What is Criteria API in Hiberante? Explain the advantages.
+
+
+
+Bean Lifecycle
+
+18906872
+
+Instantiate
+Populate properties , Implement Aware interfaces
+PostProcessBeforeInitialization
+@PostConstruct
+afterPropertiesSet (Implement InitializeBean)
+Custom Init method
+PostProcessAfterInitialization
+
+@PreDestroy
+destroy (Implement DisposableBean)
+Custom destroyMethod
