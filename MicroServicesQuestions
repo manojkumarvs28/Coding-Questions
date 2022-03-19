@@ -1,0 +1,11 @@
+1. Architecture diagram of various microservices
+2. How exception Handler picks up exceptions from different microservices
+3. At which layer will you check if user is authroized or having specific roles ?
+4. How microservices are registerd in root registry
+5. Say in level 2 cache , if user directly changes something in cache , how the cache will be corrected to have right data ?
+6. How do u handle multiple requests to same microservice in our application
+7. How do u scale our application ?
+8. How Db configuration is created in Spring and Spring boot ?
+9. How request is propagated to specific pod and container in Kubernates cluster if multiple pods are running in a worker node?
+10. How do u find trace the loggers and find out the exception occuring place in Spring application ?
+11. How jwtToken is generated ?
