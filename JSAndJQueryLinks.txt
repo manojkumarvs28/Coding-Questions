@@ -1,0 +1,70 @@
+https://www.codeschool.com/courses/jquery-the-return-flight?utm_medium=null&utm_campaign=jquery&utm_source=tryjquery
+
+javascript patterns - Module and reveling module pattern
+
+Javascript Event reference
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+use strict in javascript - https://johnresig.com/blog/ecmascript-5-strict-mode-json-and-more/
+https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it?rq=1
+
+var vs let vs const
+https://medium.freecodecamp.org/var-vs-let-vs-const-in-javascript-2954ae48c037
+
+different ways to access html elements-
+  - document.getElementById, - document.getElementByClassName, -document.getElementByTagName, -document.querySelector('#Id-of-element')
+
+ https and http working
+https://rubygarage.org/blog/http-vs-https-secure-your-site-with-ssl
+https://www.quora.com/What-makes-https-sites-more-secure-than-http
+
+javascript output prediction
+	https://www.toptal.com/javascript/interview-questions
+
+	Javascript delete
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+
+https://hackernoon.com/inheritance-in-javascript-21d2b82ffa6f
+
+Css Animations -> https://css-tricks.com/almanac/properties/a/animation/
+https://www.w3schools.com/jsref/event_createevent.asp
+https://stackoverflow.com/questions/11351135/create-ul-and-li-elements-in-javascript
+https://stackoverflow.com/questions/15241915/how-to-change-css-property-using-javascript
+Pass Reference to element clicked or selected in UI
+https://stackoverflow.com/questions/19998711/how-to-pass-this-element-to-javascript-onclick-function-and-add-a-class-to-that
+Create and append child to elements
+https://stackoverflow.com/questions/5677799/how-to-append-data-to-div-using-javascript
+clear inner text/html of elements
+https://stackoverflow.com/questions/3450593/how-do-i-clear-the-content-of-a-div-using-javascript
+https://stackoverflow.com/questions/50188750/ajax-response-need-to-be-converted-to-blob
+
+Difference between event.preventdefault vs stoppropagation vs stopimmediatepropagation
+https://medium.com/developers-arena/understanding-preventdefault-stoppropagation-and-stopimmediatepropagation-when-working-with-61842c37e012
+
+Difference between returning false vs stoppropagation vs preventdefault
+https://medium.com/@jacobwarduk/how-to-correctly-use-preventdefault-stoppropagation-or-return-false-on-events-6c4e3f31aedb
+
+Deferred Objects
+http://tutorials.jenkov.com/jquery/deferred-objects.html
+
+https://www.daddydesign.com/wordpress/how-to-smoothly-scroll-to-a-specific-element-using-jquery/
+
+https://stackoverflow.com/questions/1107220/how-can-i-select-an-element-by-name-with-jquery?rq=1
+https://stackoverflow.com/questions/263965/how-can-i-convert-a-string-to-boolean-in-javascript?rq=1
+https://stackoverflow.com/questions/596351/how-can-i-know-which-radio-button-is-selected-via-jquery?rq=1
+https://stackoverflow.com/questions/1041344/how-can-i-select-an-element-with-multiple-classes-in-jquery?rq=1
+https://stackoverflow.com/questions/1279957/how-to-move-an-element-into-another-element?rq=1
+https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage?rq=1
+https://stackoverflow.com/questions/221294/how-do-you-get-a-timestamp-in-javascript?rq=1
+https://stackoverflow.com/questions/1643227/get-selected-text-from-a-drop-down-list-select-box-using-jquery?rq=1
+https://stackoverflow.com/questions/6677035/jquery-scroll-to-element?rq=1
+https://stackoverflow.com/questions/684672/how-do-i-loop-through-or-enumerate-a-javascript-object?rq=1
+https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it?rq=1
+https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript?rq=1
+https://stackoverflow.com/questions/306583/how-to-get-the-children-of-the-this-selector?rq=1
+https://stackoverflow.com/questions/8073673/how-can-i-add-new-array-elements-at-the-beginning-of-an-array-in-javascript?rq=1
+https://stackoverflow.com/questions/178325/how-do-i-check-if-an-element-is-hidden-in-jquery?rq=1
+
+String methods - https://www.w3schools.com/jsref/jsref_obj_string.asp
+Array Methods - https://www.w3schools.com/jsref/jsref_obj_array.asp
+Prototype Chain - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain

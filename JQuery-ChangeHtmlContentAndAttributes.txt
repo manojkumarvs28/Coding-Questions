@@ -1,0 +1,15 @@
+1.$("#facebook").text("New Text"); - changes the text of facebook div
+
+2.$("#facebook").html("<p>New paragragh</p>"); - changes the html content of facebook div
+
+3.$("#input").val("New Text"); - changes the text of html element with id input 
+
+4. $("#microstLink").attr({"href":"http://www.google.com", "title":"Google"});  - if microstLink is a link, then "attr" will change the href value of the microstLink link.
+
+5. $("microsoft").append("<ul><li>list item</li></ul>") - adds/appends new unordered list at the end of the div
+
+6. $("microsoft").prepend("<ul><li>list item</li></ul>") - adds/prepend new unordered list at the beginning of the div
+
+7. $("microsoftDiv").after("<p> new Paragragh </p>");  - adds paragraph just after the microsoftDiv
+
+8. $("microsoftDiv").before("<p> new Paragragh </p>");  - adds paragraph just before the microsoftDiv

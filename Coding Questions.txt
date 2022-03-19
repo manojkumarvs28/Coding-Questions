@@ -1,0 +1,289 @@
+
+Trees
+1.Root to leaf path sum equal to a given number, number can be positive or negative
+2.Two nodes of a BST are swapped, correct the BST
+3.Given two (binary) trees, return the first pair of non-matching leaves
+4.Diagonal Traversal of Binary Tree //http://www.geeksforgeeks.org/diagonal-sum-binary-tree/ use mapOfMaps here to store nodes
+5.Find the distance between 2 nodes in a BST(Binary Search Tree)
+6.Mirror Image of binary tree (Recursive and Iterative)
+7.Merge two balanced binary search tree.
+8.Isomorphic binary tree check
+9.Top view of binary tree
+10. K-th largest element in bst - https://www.techiedelight.com/find-kth-smallest-largest-element-bst/     -> u can also use static instead of atomic
+11.Program to check if a binary tree is BST or not
+12. Print nodes at K distance from root
+13. Print nodes at K distance from a given node
+14.Print vetical order of binary tree1
+15.Given a binary tree, sum all the root to leaf nodes and return the sum.
+16.Given a binary tree with each node having parent pointers. Find the LCA of two nodes
+17.Check if a binary tree is balanced
+18.Max sum in a binary tree
+19.Print all nodes in a binary tree having K leaves
+20. Print all root to leaf pathx
+21. Boundary Traversal of binary tree
+22. left view of binary tree
+23.Delete node in a BST.
+24.BST, finding next highest node
+25.Kth-Smallest lememnt in BST = https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/solutions
+https://www.geeksforgeeks.org/transform-bst-sum-tree/
+https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree-set-2/
+https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
+https://www.geeksforgeeks.org/print-cousins-of-a-given-node-in-binary-tree-single-traversal/
+https://www.geeksforgeeks.org/burn-the-binary-tree-starting-from-the-target-node/
+https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-leaf-node/
+
+
+Linked List
+1.Reverse a Linked List in groups of given size
+2. clone linked lists
+3.Check whether the Linked List is Palindrome
+4. check if 2 linked lists merge . If so where
+https://www.geeksforgeeks.org/sum-of-two-linked-lists/
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+
+https://www.geeksforgeeks.org/lru-cache-implementation/
+https://www.geeksforgeeks.org/design-a-data-structure-for-lru-cache/
+https://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/
+https://www.geeksforgeeks.org/find-number-of-islands/
+https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/
+https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/
+https://www.geeksforgeeks.org/postfix-to-infix/
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/ - Also called as all anagrams of string
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+https://www.geeksforgeeks.org/maximum-sum-of-products-of-two-arrays/
+https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/
+https://www.geeksforgeeks.org/counting-inversions/
+https://www.geeksforgeeks.org/sentence-palindrome-palindrome-removing-spaces-dots-etc/
+https://www.geeksforgeeks.org/simplify-directory-path-unix-like/
+
+https://www.geeksforgeeks.org/word-break-problem-trie-solution/
+https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/
+https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/
+https://www.geeksforgeeks.org/java-arraylist-to-print-all-possible-words-from-phone-digits/
+https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/
+https://www.geeksforgeeks.org/count-substrings-with-same-first-and-last-characters/
+https://www.geeksforgeeks.org/count-substrings-that-starts-with-character-x-and-ends-with-character-y/
+https://www.geeksforgeeks.org/program-to-convert-a-given-number-to-words-set-2/
+https://www.geeksforgeeks.org/palindrome-pair-in-an-array-of-words-or-strings/
+https://algorithms.tutorialhorizon.com/nuts-bolts-problem-lock-key-problem/
+https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/
+https://www.geeksforgeeks.org/find-element-bitonic-array/
+https://www.geeksforgeeks.org/the-celebrity-problem/
+https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/
+https://www.geeksforgeeks.org/merge-k-sorted-arrays/
+https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+https://www.geeksforgeeks.org/optimal-file-merge-patterns/
+https://www.geeksforgeeks.org/shortest-distance-two-cells-matrix-grid/
+https://www.geeksforgeeks.org/find-whether-path-two-cells-matrix/
+https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/   - in all 8 directions
+https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+https://www.geeksforgeeks.org/k-smallest-elements-order-using-o1-extra-space/
+https://www.geeksforgeeks.org/search-an-element-in-an-array-where-difference-between-adjacent-elements-is-1/
+https://www.geeksforgeeks.org/searching-array-adjacent-differ-k/
+https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+https://www.geeksforgeeks.org/next-greater-element/
+https://www.geeksforgeeks.org/next-greater-element-in-same-order-as-input/
+https://www.geeksforgeeks.org/sort-linked-list-0s-1s-2s-changing-links/
+https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/ - Recursive approach
+https://www.geeksforgeeks.org/union-intersection-two-linked-lists-set-2-using-merge-sort/
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+https://www.geeksforgeeks.org/snake-ladder-problem-2/
+https://www.geeksforgeeks.org/longest-common-prefix-using-trie/
+https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string/  - last 2 approaches
+https://www.geeksforgeeks.org/merge-k-sorted-linked-lists-set-2-using-min-heap/
+https://www.programcreek.com/2014/05/merge-k-sorted-arrays-in-java/   - using priority queue
+https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/
+https://www.includehelp.com/java-programs/minimum-swaps-required-to-sort-an-array.aspx
+
+
+Arrays
+1.Print distinct elements in every window of size k
+2.Circular tour that visit all petrol pumps.
+3.Find a sub-array in an array of 0 and 1 such that flipping bits maximizes no. of 1s.
+4.Largest sum continous Array
+5. finding the number of distinct elements in an array
+6. find sum of elements in index interval (i, j) in constant time.
+7.Find subarray with max sum. Array have both -ve and +ve integers (Same as largest sum continous array)
+8.Given an array find the maximum consecutive and non consecutive sum and print them(Non-continous sum means largest sum continous array where as continous sum means maximum of continous sum)
+9.Given an array it can be of 4 types  - http://www.geeksforgeeks.org/type-array-maximum-element/
+(a) Ascending
+(b) Descending
+(c) Ascending Rotated
+(d) Descending Rotated
+find out which kind of array it is and return the maximum array.
+10.Given an array, find largest sum of
+	a) Contiguous subarray
+	b) Non Contiguous Subarray (Same as 8th question)
+11.One array (Array 1) of size m with m sorted elements and another array (Array 2) of size (m + n) with n sorted elements, you have to put all the elements from both the arrays in Array 2 in sorted order. (O(1) auxiliary space and O(m + n) time).
+ Ans Do comparison in reverse order of arrays. ie from end of both arrays
+
+12.Search an element in a sorted and rotated array
+13.Given an array it can be of 4 types
+(a) Ascending 10,20,30,40 (+, +) ie 20-10, 40-30
+(b) Descending  40,30,20,10 (-, -)
+(c) Increasing then decresing 10,20, 40, 30 (+,-)
+(d) Descending and then incresing 40,30, 10,20 (-,+)
+find out which kind of array it is .
+Ans) find the differnce of first 2 nos and last 2 nos in the array .the sign will diffrent for diffrent combinations. based on the combinations u can differ
+
+
+strings
+1.Length of the longest substring without repeating characters //https://leetcode.com/articles/longest-substring-without-repeating-characters/       last  two  solns
+2.You have been given an alphanumeric string extract maximum numeric value from that
+	Input: 100klh564abc365bg
+	Output: 564
+3.Given a string S, print the number of digits and number of english alphabets in it
+4. Rearrange characters in a string such that no character repeats twice //http://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+5.Given a large file having strings(for understanding, given an array of strings). Find the string which repeats the most. Ignore the case.
+6.Given a string, count all the palindromes in that string. Only consider substring palindromes.
+https://www.baeldung.com/java-palindrome-substrings
+7.Find the unique character from two strings
+8.Find the K-most frequent occurring word till now in a running stream of words by using Trie(modified) and Heap concep
+9.Find the smallest window in a string containing all characters of another string
+https://www.geeksforgeeks.org/smallest-window-contains-characters-string
+
+
+Number
+1.Next greater number with same set of digits
+2.Sqrt of an integer till given decimal places
+3. Find 0's to be flipped so that no of 1's will be maximized
+4. check whether a number is prime or not
+5.Given a number, find the next smallest palindrome larger than this number.
+6.In any point of time print the first non-repeating number in a stream of numbers
+
+
+Matrix
+1.Find length of the largest region in Boolean Matrix
+2.Find the number of islands
+3.Given a 2-D grid, number of steps to take, say k and intial position of a Robot. print the paths possible from initial position after k steps. Robot can move in top, right, left, bottom. In one path, robot can’t move to the location it has previously visited
+4.Write a function to print the spiral of a matrix
+5.Search in a row wise and column wise sorted matrix
+6. Rotate matrix by 90 - transpose and then reverse each column elements(for left rotate)/ revesrse row elements for(for right rotate)
+,  Rotate matrix by 180 degree - we will have to print given matrix in reverse manner .
+
+
+Design
+1.Design Pizza Class, mostly OOPs concepts.
+2.Hotel booking problem
+3.Design a Parking Lot.
+4.Design elevator in OO perspective
+
+
+Graph
+1.Given a graph, find the Topological Sort.
+
+stacks and Queues
+1.Given a stack of integers of size n, you have to sort it using only push and pop operations
+2.Stack to queue using single stack  and Vice versa
+
+
+Other Questions
+1. Internals of HashMap and explain with code -- https://tekmarathon.com/2012/12/04/hashmap-internal-implementation-analysis-in-java/
+2.Asked about what data structures I knew and what data structure will I use to make a cache.the answer was Hashing.
+3.problem to convert Integer to Roman
+4.Stepping on stairs: A valid move is defined as either a single step or 2 steps. Starting from 1st stair you have to reach nth stair in minimum valid moves
+5.Iterative version of Tower of Hanoi.
+7.Given the arrival and departure time of various trains in a station. Calculate the minimum number of platforms required such that no train has to wait for another train to vacate the platform.
+The question basically means calculate the maximum number of trains that would be present in the platform at any given time.
+	Answer
+	sort the arrival time and sort the departure time, keep a count initialized to 0. compare the first element of the arrival time with the first of departure, increase the value of count if the value at current Index at arrival is less than the value index at departure and increment the arrival index, and vice versa. Keep the maximum count that you see.
+8.Trapping Rain Water
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+9.Count ways to reach the n’th stair
+10.Trie | (Insert and Search)
+11.Given a cost matrix cost[][] and a position (m, n) in cost[][], write a function that returns cost of minimum cost path to reach (m, n) from (0, 0). Each cell of the matrix represents a cost to traverse through that cell. Total cost of a path to reach (m, n) is sum of all the costs on that path (including both source and destination). You can only traverse down, right and diagonally lower cells from a given cell, i.e., from a given cell (i, j), cells (i+1, j), (i, j+1) and (i+1, j+1) can be traversed. You may assume that all costs are positive integers
+https://www.geeksforgeeks.org/minimum-cost-path-left-right-bottom-moves-allowed/
+12.Implement LRU Cache
+
+Puzzle
+Given two identical ropes of equal length, ,if it takes 60 minutes to burn out the whole rope, how will you measure 45 minutes using these two ropes. You are provided with only these two ropes and a lighter to ignite
+
+OS
+1.Some questions that arose as a result of discussion on OS were :
+Q1 . What is critical section problem and how is it solved?
+Q2 . What is Semaphore?
+Q3 . What is race condition?
+Q4 . What is write lock and what are the conditions of it?
+Q5 . What are threads and processes?
+
+2.all the OS scheduling Algorithms
+3.Inter Process Communication : Shared Memory and Sockets
+4Why sockets are preferred over Shared Memory.
+Where shared memory is stored (in user space or kernel space) ? and why ?
+
+Bit
+1. Position of rightmost set bit
+
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+https://www.geeksforgeeks.org/maximum-sum-of-values-of-nodes-among-all-connected-components-of-an-undirected-graph/?ref=rp
+https://www.geeksforgeeks.org/minimum-cost-to-complete-given-tasks-if-cost-of-1-7-and-30-days-are-given/
+https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/
+https://www.geeksforgeeks.org/weighted-job-scheduling/
+https://www.geeksforgeeks.org/weighted-job-scheduling-set-2-using-lis/?ref=rp
+https://www.geeksforgeeks.org/job-sequencing-problem/
+https://www.geeksforgeeks.org/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/?ref=rp
+Suduko Problem
+https://leetcode.com/problems/sudoku-solver/
+https://leetcode.com/problems/valid-sudoku/
+Knight tour
+https://www.youtube.com/watch?v=SP880DBRJ_8&ab_channel=Pepcoding
+NQueen
+https://leetcode.com/problems/n-queens/
+https://www.youtube.com/watch?v=05y82cP3bJo&ab_channel=Pepcoding
+
+Paint House 1 , 2 and 3
+
+House Robber  1 and 2 and 3
+
+Unique BST 1 and 2
+
+Unique Paths 1 and 2
+
+Jump Game 1 and 2
+
+WildCard matching
+Regular Expression matching
+Longest valid parentheses
+Valid parentheses string
+shortest Common Subsequence
+Maximum profit in Job Scheduling
+Longest ZigZag Path in Binary Tree
+
+Longest palindromic Substring
+Longest palindromic subsequence
+Longest increasing subsequence
+Longest common subsequence
+Coin Change 1, 2 and 3
+
+
+Arithmetic Slices 1 & 2
+https://leetcode.com/problems/arithmetic-slices/
+https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+
+
+https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210226139/?utm_medium=jobshare
+
+https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/
+
+OAuth authentication
+Sorting algorithms revise
+
+elastic logstash kibana
+Query Profiling
+jprofiler vs visualvm
+scc saga design pattern
+
+Two phase commit 
+
+
+/usr/local/opt/kafka/bin/kafka-server-start /usr/local/etc/kafka/server.properties

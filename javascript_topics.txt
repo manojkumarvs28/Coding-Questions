@@ -1,0 +1,11 @@
+Javascript topics
+1. Javascript Objects, functions
+2. Prototypes, scoping, hoisting,
+3. Callback, Closure, IIFE
+4. this pointer, bind, apply, chaining functions
+5. Object Oriented Javascript -> inheritence, 
+6. DOM and BOM
+7. Javascript Custom events
+8. Javascript design pattrens - MVC, Angular(View,components), IIFE based patterns
+9. promises , deffered objects, 
+10. DataTypes and their inbuilt functions

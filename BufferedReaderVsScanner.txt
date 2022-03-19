@@ -1,0 +1,10 @@
+
+BufferedReader vs Scanner
+
+A BufferedReader is a simple class meant to efficiently read from the underling stream. Generally, each read request made of a Reader like a FileReader causes a corresponding read request to be made to underlying stream. Each invocation of read() or readLine() could cause bytes to be read from the file, converted into characters, and then returned, which can be very inefficient. Efficiency is improved appreciably if a Reader is warped in a BufferedReader.
+
+BufferedReader is synchronized, so read operations on a BufferedReader can safely be done from multiple threads.
+
+A scanner on the other hand has a lot more cheese built into it; it can do all that a BufferedReader can do and at the same level of efficiency as well. However, in addition a Scanner can parse the underlying stream for primitive types and strings using regular expressions. It can also tokenize the underlying stream with the delimiter of your choice. It can also do forward scanning of the underlying stream disregarding the delimiter!
+
+A scanner however is not thread safe, it has to be externally synchronized.

@@ -1,0 +1,88 @@
+DOM
+https://www.youtube.com/watch?v=sWUT97Ne7V4
+
+CSS precedence
+http://tutorials.jenkov.com/css/precedence.html
+
+Diff btwn justify content and align content and align items
+https://stackoverflow.com/questions/45104776/difference-between-justify-content-vs-align-content?noredirect=1&lq=1
+https://stackoverflow.com/questions/35049262/difference-between-justify-content-vs-align-items
+
+Inline vs inline block
+https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051
+https://alligator.io/css/display-inline-vs-inline-block/
+
+position relative vs absolute vs fixed vs static
+https://medium.freecodecamp.org/var-vs-let-vs-const-in-javascript-2954ae48c037
+https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6
+
+nth-child vs nth-of-type
+https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/
+
+first-of-type vs first-type
+https://css-tricks.com/almanac/selectors/f/first-of-type/
+
+Z-index
+https://medium.freecodecamp.org/z-index-explained-how-to-stack-elements-using-css-7c5aa0f179b3
+
+Css margin:auto and float
+https://learnlayout.com/margin-auto.html
+https://css-tricks.com/almanac/properties/f/float/
+http://tutorials.jenkov.com/css/float.html
+
+http://tutorials.jenkov.com/css/position.html
+
+css - overflow, text-decoration, list-style, position,
+   https://css-tricks.com/pseudo-class-selectors/
+
+
+https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+
+FlexBox Behaviour - FlexGrow,FlexShrink,FlexBasis, align-self, align-content
+		https://www.creativebloq.com/advice/the-web-designer-s-guide-to-flexbox
+		Important sections in above link
+		 - Align multiple lines
+		 - Fill the space
+		 - Growing and shrinking
+		 - Unknown navigation size
+		 - Equal-height columns
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+		 https://css-tricks.com/using-css-grid-the-right-way/
+		 https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
+		 https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/
+     Grid Examples - https://gridbyexample.com/examples/
+
+https://css-tricks.com/child-and-sibling-selectors/
+
+1. Apply css to element in JavaScript
+2. use any variable instead of "$"
+3. QuickSort and merge sort
+4. create radio btn grp consisting of 3  radio buttons. By default will all buttons be checked? or only first one ? or will all be unchecked?
+5. Stored procedure in SQL
+6. if 2 div elemets have same id, then how do you select both of them.
+7. Hide and show elements using js and jquery
+8. select direct child and non direct(child of child) children using js and jquery
+9. Different ways of applying css. -> external css file, style attribute on elements
+10. Can we have more than one document.ready function in js file? Will all of them execute or only one?
+11. why you will prefer div instead of table
+
+https://stackoverflow.com/questions/9780443/how-to-select-all-children-of-an-element-with-javascript-and-change-css-property
+https://www.quora.com/How-do-you-get-all-of-the-child-elements-within-a-DIV-in-Javascript
+https://stackoverflow.com/questions/6536797/jquery-apply-css-style-to-all-elements-within-specifed-div
+https://www.w3schools.com/sql/sql_stored_procedures.asp
+
+Css Grid -> https://css-tricks.com/snippets/css/complete-guide-grid/
+
+Css Specificity
+https://www.w3schools.com/css/css_specificity.asp
+https://css-tricks.com/specifics-on-css-specificity/
+https://www.sanfoundry.com/css-multiple-choice-questions-answers/
+https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+
+https://www.sanfoundry.com/1000-css-questions-answers/
+https://www.w3schools.com/css/css_list.asp
+
+https://www.geeksforgeeks.org/difference-between-angular-and-angularjs/
+

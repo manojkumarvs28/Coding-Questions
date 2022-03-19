@@ -1,0 +1,233 @@
+JPA
+http://www.javaworld.com/article/2077817/java-se/understanding-jpa-part-1-the-object-oriented-paradigm-of-data-persistence.html?page=6
+
+HashMap Internal working simple explaination
+  http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html
+Hashmap Detailed expalination
+  https://dzone.com/articles/hashmap-internal
+
+ http://howtodoinjava.com/jpa/jpa-native-select-sql-query-example/
+
+JPA -> Query API - https://www.objectdb.com/java/jpa/query/api   ->Running, Query Parameters, Named Queries, Setting and Tuning
+
+JPA Persistence Unit - https://www.objectdb.com/java/jpa/entity/persistence-unit
+
+Java Map to list, list to map, Sorting map by key,sorting map by value
+https://mkyong.com/java8/java-8-convert-map-to-list/
+https://mkyong.com/java8/java-8-convert-list-to-map/
+https://mkyong.com/java8/java-8-how-to-sort-a-map/?utm_source=mkyong.com&utm_medium=referral&utm_campaign=afterpost-related&utm_content=link2
+https://mkyong.com/java8/java-8-how-to-sort-list-with-stream-sorted/?utm_source=mkyong.com&utm_medium=referral&utm_campaign=afterpost-related&utm_content=link3
+https://mkyong.com/java8/java-8-convert-a-stream-to-list/?utm_source=mkyong.com&utm_medium=referral&utm_campaign=afterpost-related&utm_content=link1
+
+OverRiding Static method rules - https://www.geeksforgeeks.org/can-we-overload-or-override-static-methods-in-java/
+1.Static local variables are not allowed in java - Inside static methods/instance methods , we cannot create and instantiate static variables.
+2.Non_static methods cannot be called from static methods
+
+Overriding Method Rules - https://docs.oracle.com/javase/tutorial/java/IandI/override.html
+
+getClass, hashCode, finalize - https://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html
+
+List of checked and unchecked exceptions - https://www.codejava.net/java-core/exception/java-checked-and-unchecked-exceptions
+https://www.geeksforgeeks.org/exception-handling-with-method-overriding-in-java/
+Avoid ConcurrentModificationException java
+https://www.javacodegeeks.com/2011/05/avoid-concurrentmodificationexception.html
+How Exceptions are handled internally
+		 https://www.geeksforgeeks.org/exceptions-in-java/
+
+Garbage Collection - https://betsol.com/java-memory-management-for-java-virtual-machine-jvm/
+
+ACID properties - Consistency - https://www.lifewire.com/database-consistency-definition-1019249
+				- Durability - https://www.tutorialspoint.com/dbms/dbms_transaction.htm
+Indexing in DBMS - https://www.geeksforgeeks.org/indexing-in-databases-set-1/
+Difference btwn DDL and DML - https://www.geeksforgeeks.org/difference-between-ddl-and-dml-in-dbms/
+Difference btwn RDBMS and DBMS - https://www.geeksforgeeks.org/difference-between-rdbms-and-dbms/
+Normalization - https://www.geeksforgeeks.org/introduction-of-database-normalization/
+ 			  - https://www.geeksforgeeks.org/normal-forms-in-dbms/
+
+ACID properties-> https://www.guru99.com/dbms-transaction-management.html
+
+1-3 and BCNF Normal Forms
+	https://www.tutorialspoint.com/dbms/database_normalization.htm
+4th Normal form
+	https://www.studytonight.com/dbms/fourth-normal-form.php
+5th Normal Form
+	https://www.tutorialcup.com/dbms/fifth-normal-form.htm
+
+
+Websocket Connections
+https://blog.openshift.com/how-to-build-java-websocket-applications-using-the-jsr-356-api/
+
+
+1.Thread Concepts - Semaphore, mutex, Reentrant Locks, DeadLock, CountDownLatch, ThreadPools, Synchronized, join, yield,
+  sleep, Synchronized, Deamon Thread, Callable And Future, executor service
+2.CountDownLatch -> https://www.geeksforgeeks.org/countdownlatch-in-java/
+https://javarevisited.blogspot.com/2012/07/countdownlatch-example-in-java.html
+3.shutDown, shutdownNow, awaitTermination -> https://howtodoinjava.com/java/multi-threading/executorservice-shutdown/
+4.https://www.callicoder.com/java-executor-service-and-thread-pool-tutorial/
+5.ThreadLocal ->http://tutorials.jenkov.com/java-concurrency/threadlocal.html
+6.Thread OutPut Questions
+		 https://www.javamadesoeasy.com/2015/03/threads-top-75-interview-questions-and_10.html
+7.https://www.geeksforgeeks.org/transient-keyword-java/
+8.MultiThreading print even and odd numbers using wait-notify
+https://netjs.blogspot.com/2016/04/print-odd-even-numbers-using-threads-wait-notify.html
+9.Semaphore-> https://www.baeldung.com/java-even-odd-numbers-with-2-threads
+10.MultiThreading -
+   https://javarevisited.blogspot.com/2013/03/reentrantlock-example-in-java-synchronized-difference-vs-lock.html
+   https://howtodoinjava.com/java/multi-threading/sleep-vs-wait/
+   https://javarevisited.blogspot.com/2011/12/difference-between-wait-sleep-yield.html
+   https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for
+   https://java2blog.com/object-level-locking-vs-class-level-locking-java/
+
+   Servlets filters
+   http://www.avajava.com/tutorials/lessons/what-is-a-filter-and-how-do-i-use-it.html
+   Servlet life cycle
+ 11.https://www.geeksforgeeks.org/semaphore-in-java/
+https://www.geeksforgeeks.org/reentrant-lock-java/
+https://www.javatpoint.com/life-cycle-of-a-servlet
+12.MultiThreading Java
+http://tutorials.jenkov.com/java-concurrency/synchronized.html
+
+13.Executors Java multithreading
+http://tutorials.jenkov.com/java-util-concurrent/executorservice.html
+
+
+Java 8 differnt new Features
+https://beginnersbook.com/2017/10/method-references-in-java-8/
+ - lambda expressions
+ - Method references-in-java-8/
+ - Interface changes, Functional interface and many more
+ - Collectors class
+ -Arrays.parallelSort
+
+ Java7 vs Java8
+ Dependency Injection in Java
+ Generics in Java
+https://www.geeksforgeeks.org/generics-in-java/
+https://javarevisited.blogspot.com/2012/04/what-is-bounded-and-unbounded-wildcards.html
+
+lambda expressions in java
+
+WebSocket connections in java - How it works
+https://medium.com/front-end-weekly/what-are-websockets-7bf0e2e1af2
+
+Timer example
+https://java2blog.com/java-timer-example/
+See 2nd example under - "For repeated execution"
+Example is similar to below example
+It wil start the timer.
+Do some intermediate task like changing status of column of dataBase for a particular seat
+Sleep for some time say(10 mins)
+After this time, we can cancel the timer.
+
+https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
+
+Solid Principles
+https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea
+
+Single page vs Multi Page Applications
+https://medium.com/@goldybenedict/single-page-applications-vs-multiple-page-applications-do-you-really-need-an-spa-cf60825232a3
+
+how annotations work and how they useful in java
+https://stackoverflow.com/questions/18189980/how-do-annotations-like-override-work-internally-in-java
+https://dzone.com/articles/how-annotations-work-java
+
+
+Regular Expressions
+https://www.geeksforgeeks.org/write-regular-expressions/
+
+Garbage Collection - Mark And Sweep Algorithm
+https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/
+
+Spark submit applications
+https://spark.apache.org/docs/latest/submitting-applications.html
+Spark aggregateByKey
+https://www.youtube.com/watch?v=YLYqdG-gvoo
+Spark reduceByKey vs groupByKey
+https://www.youtube.com/watch?v=81l3yBTUWAA
+
+https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
+
+Java is platform independent
+		 https://www.geeksforgeeks.org/java-platform-independent/
+
+Implement hashCode function
+		https://www.java2novice.com/java-interview-programs/equals-hashcode/
+		https://www.mkyong.com/java/java-how-to-overrides-equals-and-hashcode/
+
+		What Are The Difference Between A Static Class And A Singleton Class?
+		Question 9  in below link
+		https://www.wisdomjobs.com/e-university/java-design-patterns-interview-questions.html
+
+
+	Sql groupby,having , orderby syntax
+	https://www.guru99.com/order-by-desc-and-asc.html
+
+	createNamedQuery and createNativeQuery
+	  1. createNativeQuery
+	    Query updateThemeOrderQuery = em.createNativeQuery("UPDATE T_THEME SET THEME_ORDER = ?1 WHERE TECHNICAL_NAME = ?2");
+        updateThemeOrderQuery.setParameter(1, themeOrder);
+        updateThemeOrderQuery.setParameter(2, themeTechnicalName);
+        updateThemeOrderQuery.executeUpdate();
+
+		//Here numbers are specified in query and numbers are substitued in setParameter
+		//In nativeQuery, QUERY is mentioned in Capitals particularly the table Name -> T_THEME
+		// Note: When update or delete query we use "executeUpdate". In case of select we use "getResultList" or "getSingleResultList". This is
+		// observed in both the cases
+
+
+	 2. createNamedQuery
+	      Query query = manager.createNamedQuery("SELECT r from TThemeRelation r WHERE r.themeId = :themeId  ORDER BY r.themeCPRelOrder", TThemeRelation.class);
+            query.setParameter("themeId", themeIdentifier);
+            List<TThemeRelation> relations = query.getResultList();
+		// Here query and table name is specified in smaller
+	    //Here ":themeId" is specified instead of numbers in Query and it is replaced in setParameter
+		//"TThemeRelation.class" if specified the getResultlist will give objects of type "TThemeRelation" otherwise it will return
+		// List<Object>[]. This is applicable in both cases.
+		//If class is specified as in above case then the query becomes TypedQuery. In this case it will be TypedQuery<TThemeRelation>
+
+ Cassendra data storage representation - See diagrams in it
+ http://www.treselle.com/blog/cassandra-data-model-for-twitter-part-1/
+
+ Redis DB link
+https://redis.io/topics/cluster-tutorial
+
+Inner And Outer Joins
+http://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join
+
+Time-complexity analyis cheat-sheet
+http://bigocheatsheet.com/
+
+Spring JavaBeat Tutorials
+http://javabeat.net/spring-tutorials/
+http://javabeat.net/introduction-to-spring-web-framework/
+
+Other Spring tutorials
+https://www.quora.com/What-is-the-best-tutorial-site-for-spring-MVC
+
+Odata service creation example
+https://olingo.apache.org/doc/odata4/tutorials/read/tutorial_read.html
+ 31 days of Odata
+http://www.chriswoodruff.com/blog/31-days-of-odata-day-4-metadata-in-odata/
+
+Red Black Tree implementation
+http://cs.lmu.edu/~ray/notes/redblacktrees/
+https://ideone.com/N4AZmG
+
+Design Questions
+https://gist.github.com/KWMalik/3734578
+
+Design Patterns
+http://www.journaldev.com/1827/java-design-patterns-example-tutorial#singleton-pattern
+
+patterns explaination links
+http://javarevisited.blogspot.in/2012/03/10-object-oriented-design-principles.html#axzz4hOy880Ah
+
+books  refrence links
+http://javarevisited.blogspot.in/2013/06/5-must-read-books-to-learn-object.html
+
+https://www.educative.io/collection/5668639101419520/5649050225344512
+
+   OSGI uses
+   https://stackoverflow.com/questions/106222/what-does-osgi-solve
+
+   https://www.geeksforgeeks.org/overriding-in-java/

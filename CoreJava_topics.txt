@@ -1,0 +1,48 @@
+1. OOPs concepts - Data Abstraction,Encapsulation, Polymorphism, Inheritence
+2. Collection framework
+3. MultiThreading
+4. Generics
+5. Synchronization - https://javarevisited.blogspot.in/2011/04/synchronization-in-java-synchronized.html
+6. ExceptionHandling
+7. Design patterns
+8. Garbage Collection - 
+9. JVM internals
+10. Serialisation and De-serialisation - geeksForGeeks
+11. String handling
+12. Absract classes and methods, Interfaces, packages 
+13. final, static 
+14. Scanner, file, Byte
+StringBuffer, Builder, String
+Wrapper Classes
+
+
+Advanced Java topics
+1. servlet
+2. JDBC
+3. JPA
+4. Web services(SOAP & REST)
+
+
+SQL Queries and its syntax with examples
+
+1. Difference bwtn list and set
+2. Diff btwn vector and list
+3. Diff btwn hashmap and hashset
+4. Diff btwn hashmap and hashtable
+
+Collections - Diff bwtn various collections
+HashMap internal Implementation
+Multithreading 
+Java Exception Handling and runtime and compiletime exceptions - its usage in ur project
+Java JRE JDK and JVM
+Java Memory Model
+Garbage collections
+Dependency injection in Spring - Annotation, XML
+Design Patterns 
+inheritence, overloading, overriding
+SQL
+Project topics mentioned in resume
+Java8 features
+OSGI
+ACID properties
+Nomal Forms - 1Nf, 2NF and others

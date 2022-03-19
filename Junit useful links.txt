@@ -1,0 +1,29 @@
+Mocking Private methods
+  -http://stackoverflow.com/questions/7803944/how-to-mock-private-method-for-testing-using-powermock
+  -http://stackoverflow.com/questions/28121177/mock-private-method-using-powermockito
+  
+  
+Mocking static methods
+   -https://github.com/jayway/powermock/wiki/mockstatic
+   -https://github.com/jayway/powermock/wiki/MockPartial     -->  partial mocking example
+   -https://github.com/jayway/powermock/wiki/MockSystem		 --> mocking system classes like URLEncoder
+   
+Verify no of times a method is called 
+  -http://stackoverflow.com/questions/27787487/java-verify-void-method-calls-n-times-with-mockito
+
+OverLoaded methods mocking  
+  -http://stackoverflow.com/questions/32224611/powermockito-doesnt-match-overloaded-method-when-return-types-differ
+  -http://stackoverflow.com/questions/17695356/powermockito-cant-seem-to-match-and-overloaded-method
+  
+Dependency Injection
+ -http://stackoverflow.com/questions/9841623/mockito-how-to-verify-method-was-called-on-an-object-created-within-a-method
+ -https://en.wikipedia.org/wiki/Dependency_injection
+
+Matchers
+ -http://site.mockito.org/mockito/docs/current/org/mockito/Matchers.html
+
+Mock "new" keyWord
+-https://github.com/jayway/powermock/wiki/replayallandverifyall
+
+OverAll For all scenarios
+-http://www.thedance.net/~roth/TECHBLOG/powerMock.html 

@@ -1,0 +1,86 @@
+1. https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times
+2. https://www.geeksforgeeks.org/stock-buy-sell/    (any no of times)
+3. https://www.geeksforgeeks.org/count-negative-numbers-in-a-column-wise-row-wise-sorted-matrix/
+4. https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/
+5.https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/
+6. https://www.geeksforgeeks.org/count-number-islands-every-island-separated-line/
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+7. https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/
+8. https://www.geeksforgeeks.org/find-number-of-islands/
+9. https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+10. https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+11. https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+12. https://www.geeksforgeeks.org/sort-stack-using-temporary-stack/
+13. https://www.geeksforgeeks.org/implement-stack-using-queue/
+14. https://www.geeksforgeeks.org/implement-a-stack-using-single-queue/
+15. https://www.geeksforgeeks.org/queue-using-stacks/
+16. https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+17. https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+18. https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+19. https://www.geeksforgeeks.org/trapping-rain-water/
+20. https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+21. https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/
+22. https://www.geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
+23. https://www.geeksforgeeks.org/find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/
+24. https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/  O(n^2)
+25. https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+26. https://www.geeksforgeeks.org/find-smallest-number-with-given-number-of-digits-and-digit-sum/
+27. DP based some quesrtions and Approaches/Solutions
+https://www.hackerearth.com/practice/notes/dynamic-programming-problems-involving-grids/
+https://www.geeksforgeeks.org/minimum-number-of-items-to-be-delivered/
+https://www.geeksforgeeks.org/print-the-nodes-of-binary-tree-as-they-become-the-leaf-node/
+https://www.geeksforgeeks.org/clone-a-stack-without-extra-space/
+https://www.geeksforgeeks.org/average-of-max-k-numbers-in-a-stream/
+https://www.geeksforgeeks.org/program-to-convert-a-given-number-to-words-set-2/  - O(1)
+https://javabypatel.blogspot.com/2016/11/implement-queue-using-one-stack-in-java.html
+https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/
+https://www.geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
+
+1. Longest Common Subsequence
+2. Longest Increasing Subsequence
+3. Longest Palindromic subsequence
+4. Stock buy and sell
+5. Stock buy and sell atmost k times -
+     max of {
+	   T[i] [j-1], -> not doing any transaction on jth day
+	   price[j] - price[m] + T[i-1][m] -> best you can get by doing transaction on jth day
+
+	   here T[i-1][m] -> Total profit earned from previous(i-1) transactions. As the question says we can buy only when previous transaction(selling)
+		                 is completed. So before begininng(buying) in this transaction on day 'm' profit, 'i-1' transactions must be completed
+						 So is T[i-1][m] indicates profit earned in previous transactions
+
+	 }
+
+6. Longest palindromic substring
+7. Minimum number of jumps to reach end of array
+8. Count ways to reach nth stair
+9. Trapping Rain water
+10. Maximum of all subArrays of size k
+    Sum of minimum and maximum elements of all subarrays of size k.
+11. minimum number of edits (operations) required to convert ‘str1’ into ‘str2’.
+12. Find the k most frequent words from a file
+13. Palindrome pair in an array of words or strings -> https://medium.com/@harycane/palindrome-pairs-46c5b8511397
+
+14. Find pair with given difference
+15. Print nodes at distance k from given node
+16. Connect nodes at same level
+17. Find the sum of n elements after a kth smallest element in BST
+18. Trie AutoSuggestion
+19. Print all non-repeating words out of 2 given sentences
+20. Egg dropping problem
+21. Coins - Print all subsets with given sum
+22. Connect n ropes with minimum cost - Java min Heap && Java priorityQueue -> https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+23. Clone linked list
+
+Prims - Greedy approach - Minimum spanning tree - 0(V^2)
+Dijsktra - shortest path and distance from source to all vertices - Greedy approach - O(V^2)
+Krsuskal - Minimum spanning tree - O(ELogE + ELogV)-Sorting of edges takes O(ELogE) time.find and union operations can take atmost O(LogV) time
+War shall Floyd- All Pair shortest path
+Knapsack - O(nW) - n is of items and W is total capacity
+Topological Sort - O(V+E) - V - no of vertices and E - no of Edges
+BFS DFS - O(V+E) - V - no of vertices and E - no of Edges
+
+
+OAuth working
+Indexing in Db? How query is faster on indexed column
