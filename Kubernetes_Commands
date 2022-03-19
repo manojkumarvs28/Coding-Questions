@@ -1,0 +1,47 @@
+Create Deployment
+kubectl create deployment <deploymentName> --image=<imageName>
+ex: kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+
+kubectl get pods
+kubectl get deployments
+kubectl delete deployment <deploymentName>
+
+Expose the pods created by deployment via services to external world
+kubectl expose deployment <deploymentName> --port=<8080> --type=<CluserIP/NodePort/LoadBalancer>
+kubectl get services
+minikube service <serviceName>  -> exposes the ExternalIP address
+
+Scale deployment
+kubectl scale deployment/<deploymentName> --replicas=3
+
+update deployment(set new image for the deployment)
+kubectl set image deployment/<deploymentName> <currentContainerName>=<NewImage>
+
+Check current update status
+kubectl rollout status deployment/<deploymentName>
+
+RollBack update
+kubectl rollout undo deployment/<deploymentName>   - This will rollout latest deployment
+To go back to even previous deployments
+first check the history of updates
+kubectl rollout history deployment/<deploymentName>
+kubectl rollout history deployment/<deploymentName> --revision=3
+And then
+kubectl rollout undo deployment/<deploymentName> --to-revision=<revisionNumber>
+
+
+Declarative approach of creating Deployments , services etc using yml files
+kubectl apply -f=<deploymentFile.yaml>
+
+kubectl apply -f <serviceName.yaml>
+
+kubectl delete -f=<deploymentName.yaml> -f=<service.yaml>
+
+delete By labels
+kubectl delete deployments,services -l <key>=<value>
+
+kubectl get pv
+
+kubectl apply -f=environmentFileName.yaml
+To get all environmental Variables configured in configMap
+kubectl get configmap
