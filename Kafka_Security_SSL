@@ -1,0 +1,23 @@
+1. SetUp Certificates
+
+For that we use Certifacte Authority(CA)
+
+On Server/Broker
+We have to create KeyStore - This will store Certificates
+So first we will send request to sign the certicate for broker(kafka1.example.com)
+CA now signs this certicate
+Now in keyStore we will have server/broker certificates, signed by CA
+
+On Client side
+We have truststore similar to keyStore on server side
+truststore has to trust the CA(meaning any certicate signed by CA is ligid)
+
+For this in Client we create "CA Root public certificate" which holds list of all valid CA's.
+
+
+Now when client wants to connect to broker, it sends a request to broker.
+Broker sends its SSL certificate signed by CA to client.
+Client now validates this certificate using the truststore which contains list of all CA's and checks if the CA mentioned in certicate is
+ present in list of CA's it holds in truststore
+
+ Once its agreed that CA is valid and hence certificate submitted by broker is valid, secure SSL encrypted communication between client and server

@@ -1,0 +1,36 @@
+1. bin/zookeeper-server-start.sh config/zookeeper.properties
+2. bin/kafka-server-start.sh config/server.properties
+3. bin/kafka-console-producer.sh --topic temp --bootstrap-server localhost:9092
+4. bin/kafka-console-consumer.sh --topic temp --from-beginning --bootstrap-server localhost:9092
+
+install- brew install redis
+
+start-  brew services start redis
+
+stop- brew services stop redis
+
+restart- brew services restart redis
+
+
+Dynamically scale up and scale down ? Based on No of CPU cores available ,kubernetes does this automatically.
+Schedule Scaling
+
+Monitoring microservices ?
+
+Communication between Microsservices ?
+
+API gateway ?
+
+Load Balancer ?
+
+Exception Handling in microservices ?
+How will you aggregate all logs of exceptions from all microservice
+How will you find in which microservice the exception was thrown?
+
+
+If 5 microservices are communicating in a chain, say if 4th microservice failed . How will you commuincate it to previous 3 microservices
+and roll back the transactions done in previous 3  microservices ?
+Transaction management in chain of Microsservices
+
+SAGA Orchestration pattern - choreography _ For this we use apache camel
+Two phase commit
